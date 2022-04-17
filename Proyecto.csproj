@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Amlodipino.jpg" />
+    <None Remove="Aspirina2.jpg" />
+    <None Remove="farmacia.jpg" />
+    <None Remove="farmacia1.jpg" />
+    <None Remove="farmacia2.jpg" />
+    <None Remove="fondo3.jpg" />
+    <None Remove="Levotiroxina_Sódica.jpg" />
+    <None Remove="Omeprazol.jpg" />
+    <None Remove="Paracetamol2.1.jpg" />
+    <None Remove="Simvastatina.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Amlodipino.jpg" />
+    <Resource Include="Aspirina2.jpg" />
+    <Resource Include="farmacia.jpg" />
+    <Resource Include="farmacia1.jpg" />
+    <Resource Include="farmacia2.jpg" />
+    <Resource Include="fondo3.jpg" />
+    <Resource Include="Levotiroxina_Sódica.jpg" />
+    <Resource Include="Omeprazol.jpg" />
+    <Resource Include="Paracetamol2.1.jpg" />
+    <Resource Include="Simvastatina.jpg" />
+  </ItemGroup>
+
+</Project>
